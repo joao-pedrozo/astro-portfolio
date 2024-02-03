@@ -10,13 +10,13 @@ import { remarkReadingTime } from "./src/lib/ remark-reading-time.mjs";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://astro-portfolio-flame-eight.vercel.app/",
+  site: "https://jpbp.com.br/",
   integrations: [
     sitemap(),
     robotsTxt({
       sitemap: [
-        "https://astro-portfolio-flame-eight.vercel.app/sitemap-index.xml",
-        "https://astro-portfolio-flame-eight.vercel.app/sitemap-0.xml",
+        "https://jpbp.com.br/sitemap-index.xml",
+        "https://jpbp.com.br/sitemap-0.xml",
       ],
     }),
     solidJs(),
